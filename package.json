@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/khi195/bravissimo/issues"
   },
-  "homepage": "https://github.com/khi195/bravissimo#readme"
+  "homepage": "https://github.com/khi195/bravissimo#readme",
+  "dependencies": {
+    "angular-schema-form": "^0.8.13"
+  }
 }

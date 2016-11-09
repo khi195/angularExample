@@ -14,21 +14,24 @@
 
   <body ng-app="bravissimoExampleApp">
 
+<h1>
+  <button class='btn btn-primary pull-right'>Sign Up</button>
+  <button class='btn btn-primary pull-right'>Registered Users</button>
+</h1>
+
     <div class="container" ng-controller="submitForm">
     <h1 class="welcome text-center">Bravissimo <br> Task App</h1>
         <div class="card card-container">
         <h2 class='login_title text-center'>Login</h2>
         <hr>
-
-            <form class="form-signin" novalidate ng-submit = "submit()">
+            <form name="form" class="form-signin" novalidate ng-submit="submit(form.$valid)">
                 <p class="input_title">Username</p>
-                <input type="text" id="inputUser" class="login_box" ng-model="submitUser" placeholder="username" required autofocus>
+                <input type="text" id="inputUser" class="login_box" ng-model="submitUser" placeholder="username" required>
                 <p class="input_title">Email</p>
-                <input type="password" id="inputEmail" class="login_box" ng-model="submitEmail" placeholder="Email" required>
+                <input type="email" id="inputEmail" class="login_box" ng-model="submitEmail" placeholder="Email" required>
                 <p class="input_title">Message</p>
-                <input type="text" id="inputMessage"  placeholder="Enter a message" class="login_box" ng-model="submitMessage">
-                
-                <button class="btn btn-lg btn-primary" type="submit">Login</button>
+                <input type="text" id="inputMessage"  placeholder="Enter a message" class="login_box" ng-model="submitMessage" required>      
+                <button class="btn btn-lg btn-primary" type="submit" ng-disabled="form.$invalid">Submit</button>
             </form><!-- /form -->
         </div><!-- /card-container -->
     </div><!-- /container -->

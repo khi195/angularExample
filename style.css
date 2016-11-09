@@ -117,7 +117,9 @@ hr{
 }
 
 .form-signin #inputEmail,
-.form-signin #inputPassword {
+.form-signin #inputPassword,
+.form-signin #inputUser,
+.form-signin #inputMessage {
     direction: ltr;
     height: 44px;
     font-size: 16px;

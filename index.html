@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="bravissimoExampleApp">
 
-  <head>
-            
+  <head>      
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
         <script src="https://code.angularjs.org/1.5.8/angular.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -11,17 +10,14 @@
         <script type="text/javascript" src="bower_components/objectpath/lib/ObjectPath.js"></script>
         <script type="text/javascript" src="bower_components/angular-schema-form/dist/schema-form.min.js"></script>
         <script type="text/javascript" src="bower_components/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
-        <script type="text/javascript" src="script.js"></script> 
-    <link rel="stylesheet" href="style.css" />
+        <script src="app.module.js"> </script>
+        <script src="form/form.module.js"></script> 
+        <script src="form/form.component.js"></script> 
+        <script src="form/script.js"></script>
+        <link rel="stylesheet" href="style.css" />
     <title>Bravissimo Technical Test</title>
   </head>
 
-  <body ng-app="bravissimoExampleApp">
- <div ng-controller="submitForm">
-    <form sf-schema="schema" sf-form="form" sf-model="model">
-
-    </form>
-</div>
-  </body>
-
-</html>
+<body>
+<user-login></user-login> 
+</body></html>

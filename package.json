@@ -1,0 +1,19 @@
+{
+  "name": "bravissimo",
+  "version": "1.0.0",
+  "description": "Project forked from plucker",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khi195/bravissimo.git"
+  },
+  "author": "Kashif Iqbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khi195/bravissimo/issues"
+  },
+  "homepage": "https://github.com/khi195/bravissimo#readme"
+}

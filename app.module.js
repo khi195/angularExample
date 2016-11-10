@@ -2,5 +2,8 @@
 // define the root scope name
 
 angular.module('bravissimoExampleApp', [ 
-    'form'
-]);
+    // Angular modules
+    'ngRoute', 
+    // Custom modules
+    'form', 'users'
+]).config(configFunction);

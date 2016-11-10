@@ -3,7 +3,7 @@ var app = angular.module('form');
 
 app.component('userLogin',{
     templateUrl: 'form/form.template.html',
-    controller: function($scope) {
+    controller: function ($scope) {
   $scope.schema = {
   "type": "object",
   "title": "Comment",

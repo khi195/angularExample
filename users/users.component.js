@@ -1,7 +1,7 @@
 var app = angular.module('users');
 
 app.component('userList',{
-template:'Test data {{$ctrl.details[1].username}}',
+templateUrl: 'users/users.template.html',
 controller: function detailsController($scope){
 this.details = [
         {

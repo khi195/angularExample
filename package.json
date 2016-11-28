@@ -1,5 +1,5 @@
 {
-  "name": "bravissimo",
+  "name": "angularExample",
   "version": "1.0.0",
   "description": "Project forked from plucker",
   "main": "script.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khi195/bravissimo.git"
+    "url": "git+https://github.com/khi195/angularExample.git"
   },
   "author": "Kashif Iqbal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/khi195/bravissimo/issues"
+    "url": "https://github.com/khi195/angularExample/issues"
   },
-  "homepage": "https://github.com/khi195/bravissimo#readme"
+  "homepage": "https://github.com/khi195/angularExample#readme"
 }
